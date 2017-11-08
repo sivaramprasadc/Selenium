@@ -1,0 +1,89 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    WriteExcel (0.2.0)
+      ruby-ole (>= 1.2.8.2)
+    bigdecimal (1.2.7)
+    builder (3.2.2)
+    colorize (0.7.7)
+    cucumber (2.3.2)
+      builder (>= 2.1.2)
+      cucumber-core (~> 1.4.0)
+      cucumber-wire (~> 0.0.1)
+      diff-lcs (>= 1.1.3)
+      gherkin (~> 3.2.0)
+      multi_json (>= 1.7.5, < 2.0)
+      multi_test (>= 0.1.2)
+    cucumber-core (1.4.0)
+      gherkin (~> 3.2.0)
+    cucumber-wire (0.0.1)
+    debase-ruby_core_source (0.8.4)
+    diff-lcs (1.2.5)
+    gherkin (3.2.0)
+    io-console (0.4.5)
+    json (1.8.3)
+    mini_portile2 (2.0.0)
+    minitest (5.8.4)
+    multi_json (1.11.2)
+    multi_test (0.1.2)
+    nokogiri (1.6.7.2-x86-mingw32)
+      mini_portile2 (~> 2.0.0.rc2)
+    power_assert (0.2.7)
+    psych (2.0.17)
+    rack (1.6.4)
+    rake (11.1.1)
+    rdoc (4.2.0)
+    rspec (3.4.0)
+      rspec-core (~> 3.4.0)
+      rspec-expectations (~> 3.4.0)
+      rspec-mocks (~> 3.4.0)
+    rspec-core (3.4.4)
+      rspec-support (~> 3.4.0)
+    rspec-expectations (3.4.0)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.4.0)
+    rspec-mocks (3.4.1)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.4.0)
+    rspec-support (3.4.1)
+    ruby-debug-ide (0.6.0)
+      rake (>= 0.8.1)
+    ruby-ole (1.2.12)
+    spreadsheet (1.1.1)
+      ruby-ole (>= 1.0)
+    test-unit (3.1.7)
+      power_assert
+
+PLATFORMS
+  x86-mingw32
+
+DEPENDENCIES
+  WriteExcel
+  bigdecimal
+  builder
+  colorize
+  cucumber
+  cucumber-core
+  cucumber-wire
+  debase-ruby_core_source
+  diff-lcs
+  gherkin
+  io-console
+  json
+  minitest
+  multi_json
+  multi_test
+  nokogiri
+  power_assert
+  psych
+  rack (~> 1.1)
+  rake
+  rdoc
+  rspec
+  ruby-debug-ide
+  ruby-ole
+  spreadsheet
+  test-unit
+
+BUNDLED WITH
+   1.11.2

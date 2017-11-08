@@ -1,0 +1,1 @@
+default: -f pretty -f html --out Results1.html -f rerun --out rerun.txt
